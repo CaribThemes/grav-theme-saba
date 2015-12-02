@@ -69,6 +69,9 @@ If you want to set Saba as the default theme, you can do so by following these s
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **saba** folder.
 
+# Contact Form Configuration
+For contact form configuration instructions please refer to [official documentation](http://learn.getgrav.org/advanced/contact-form). Make sure you installed Email and Form plugin though.
+
 If you find bugs in the theme report [here](https://github.com/GravIsland/grav-theme-saba/issues)
 
 # Roadmap
