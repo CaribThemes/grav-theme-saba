@@ -1,0 +1,26 @@
+{
+    "name": "getgrav/grav-theme-saba",
+    "type": "grav-theme",
+    "description": "A light & classy Theme for Grav based on Skinny-Bones Theme.",
+    "keywords": ["theme","grav","responsive","bootstrap"],
+    "homepage": "https://github.com/GravIsland/grav-theme-saba",
+    "license": "MIT",
+    },
+    "authors": [
+        {
+            "name": "MATsxm",
+            "email": "mat@thev3.net",
+            "homepage": "https://github.com/MATsxm"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "saba",
+        "installer-paths": {
+            "user/themes/{$name}/": ["getgrav/grav-theme-saba"]
+        }
+    }
+}
