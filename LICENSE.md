@@ -1,4 +1,3 @@
-# vérifier si la licence MIT est compatible avec les ext intégrées
 
 The MIT License (MIT)
 
