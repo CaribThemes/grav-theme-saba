@@ -7,6 +7,7 @@
 # Features
 * HTML5 and CSS3
 * Fully Responsive
+* FontAwesome V4.5.0
 * Various templates for presenting your content
 * Cross browser compatible
 * Sharing buttons for Facebook and Twitter.
