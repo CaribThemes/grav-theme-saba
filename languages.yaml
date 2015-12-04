@@ -3,7 +3,7 @@ en:
     DEFAULT_LANG: Default lang
   SITE:
     TITLE: Saba
-    DESCRIPTION: A light & classy Theme for Grav based on Skinny-Bones Theme.
+    DESCRIPTION: A light and classy Theme for Grav based on Skinny-Bones Theme.
     COPYRIGHT: © Copyright %s Your name
     TEST_LG: Translation Test
     
