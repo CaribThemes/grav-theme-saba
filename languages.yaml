@@ -1,0 +1,17 @@
+en:
+  ADMIN:
+    DEFAULT_LANG: Default lang
+  SITE:
+    TITLE: Saba
+    DESCRIPTION: A light & classy Theme for Grav based on Skinny-Bones Theme.
+    COPYRIGHT: © Copyright %s Your name
+    TEST_LG: Translation Test
+    
+fr:
+  ADMIN:
+    DEFAULT_LANG: Langue par défaut
+  SITE:
+    TITLE: Saba
+    DESCRIPTION: Thème minimaliste pour Grav basé sur le thème Skinny-Bones
+    COPYRIGHT: © Copyright %s Votre nom
+    TEST_LG: Test de traduction
