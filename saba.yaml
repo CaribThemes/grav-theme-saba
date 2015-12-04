@@ -1,11 +1,11 @@
 enabled: true
+default_lang: en
 dropdown:
   enabled: false
 
 streams:
-  scheme:
+  schemes:
     theme:
       type: ReadOnlyStream
       paths:
         - user/themes/saba
-        
