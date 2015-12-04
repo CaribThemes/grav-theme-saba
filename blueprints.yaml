@@ -7,7 +7,17 @@ author:
   email: mat@thev3.net
 homepage: https://github.com/GravIsland/grav-theme-saba
 demo:
-keywords: theme, responsive, bootstrap, fontawesome html5, css3
+keywords: theme, responsive, bootstrap, fontawesome, html5, css3
 bugs: https://github.com/GravIsland/grav-theme-saba/issues
 license: MIT
-default_lang: en
+
+form:
+  validation: loose
+  fields:
+    default_lang:
+      type: text
+      size: x-small
+      label: Default lang
+      default: 'en'
+      validate:
+        type: text
