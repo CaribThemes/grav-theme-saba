@@ -1,0 +1,18 @@
+{# intégration du langswitcher dans ~/partials/base.html.twig #}
+{# implique que le plugin langswitcher https://github.com/getgrav/grav-plugin-langswitcher soit installé et activé #}
+
+{% set langobj = grav['language'] %}
+        <li id="langswitcher" class="active"><a>[{{ langswitcher.current }}] <i class="fa fa-caret-down fa-lg"></i></a>
+            <ul>
+            {% for key, language in langswitcher.languages %}
+                {% if key == langswitcher.current %}
+                    {% set lang_url = page.url %}
+                    {% set active_class = 'active' %}
+                {% else %}
+                    {% set lang_url = base_url_simple ~ langobj.getLanguageURLPrefix(key)~langswitcher.page_route ?: '/' %}
+                    {% set active_class = '' %}
+                    <li><a href="{{ lang_url }}" class="{{ active_class }}">[{{ key }}] {{ language.nativeName }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </li>
