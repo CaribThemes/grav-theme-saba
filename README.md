@@ -2,7 +2,7 @@
 
 ![Saba](assets/readme_1.png)
 
-**Saba** by [GravIsland](https://github.com/CaribbeanGrav) is a Light & Classy design Theme for **Grav** based on [Skinny-Bones](https://github.com/mmistakes/skinny-bones-jekyll) Theme by mmistakes. 
+**Saba** by [CaribbeanGrav](https://github.com/CaribbeanGrav) is a Light & Classy design Theme for **Grav** based on [Skinny-Bones](https://github.com/mmistakes/skinny-bones-jekyll) Theme by mmistakes. 
 
 # Features
 * HTML5 and CSS3
