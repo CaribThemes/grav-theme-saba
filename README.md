@@ -2,7 +2,7 @@
 
 ![Saba](assets/readme_1.png)
 
-**Saba** by [GravIsland](https://github.com/GravIsland) is a Light & Classy design Theme for **Grav** based on [Skinny-Bones](https://github.com/mmistakes/skinny-bones-jekyll) Theme by mmistakes. 
+**Saba** by [GravIsland](https://github.com/CaribbeanGrav) is a Light & Classy design Theme for **Grav** based on [Skinny-Bones](https://github.com/mmistakes/skinny-bones-jekyll) Theme by mmistakes. 
 
 # Features
 * HTML5 and CSS3
@@ -29,7 +29,7 @@ This will install the Saba Theme into your `/user/themes` directory within Grav.
 
 ## Manual Installation
 
-To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `saba`. You can find these files on [GitHub](https://github.com/GravIsland/grav-theme-saba).
+To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `saba`. You can find these files on [GitHub](https://github.com/CaribbeanGrav/grav-theme-saba).
 
 You should now have all the theme files under
 
@@ -53,7 +53,7 @@ This command will check your Grav install to see if your Saba Theme is due for a
 Manually updating Agency is pretty simple. Here is what you will need to do to get this done:
 
 * Delete the `your/site/user/themes/saba` directory.
-* Download the new version of the Bootstrap Theme on [GitHub](https://github.com/GravIsland/grav-theme-saba).
+* Download the new version of the Bootstrap Theme on [GitHub](https://github.com/CaribbeanGrav/grav-theme-saba).
 * Unzip the zip file in `your/site/user/themes` and rename the resulting folder to `saba`.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
@@ -73,7 +73,7 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 # Contact Form Configuration
 For contact form configuration instructions please refer to [official documentation](http://learn.getgrav.org/advanced/contact-form). Make sure you installed Email and Form plugin though.
 
-If you find bugs in the theme report [here](https://github.com/GravIsland/grav-theme-saba/issues)
+If you find bugs in the theme report [here](https://github.com/CaribbeanGrav/grav-theme-saba/issues)
 
 # Roadmap
 
