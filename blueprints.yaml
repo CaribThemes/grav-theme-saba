@@ -1,14 +1,14 @@
 name: Saba
 version: 1.0.0
-description: "A light & classy Theme for Grav based on Skinny-Bones Theme."
+description: "A light and classy Theme for Grav based on Skinny-Bones Theme."
 icon: empire
 author:
   name: MATsxm
   email: mat@thev3.net
-homepage: https://github.com/GravIsland/grav-theme-saba
+homepage: https://github.com/CaribbeanGrav/grav-theme-saba
 demo:
 keywords: theme, responsive, bootstrap, fontawesome, html5, css3
-bugs: https://github.com/GravIsland/grav-theme-saba/issues
+bugs: https://github.com/CaribbeanGrav/grav-theme-saba/issues
 license: MIT
 
 form:
