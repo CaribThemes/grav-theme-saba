@@ -5,6 +5,14 @@
   padding: 0 15px;
 }
 
+/* test class copyright */
+.copyright {
+    color: #999;
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
