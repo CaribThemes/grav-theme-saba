@@ -1,7 +1,7 @@
 en:
 # Footer
-
-# Error
+# contact form
+# Error ~/user/themes/saba/templates/error.html.twig
     ERROR_TYPE: "Error"
     ERROR_DESC: "Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach..."
     ERROR_BTN: "back to the beach!"
@@ -13,8 +13,8 @@ en:
     
 fr:
 # Footer
-
-# Erreur
+# contact form
+# Error ~/user/themes/saba/templates/error.html.twig
     ERROR_TYPE: "Erreur"
     ERROR_DESC: "Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d'enlever vos chaussures et de retourner à la plage..."
     ERROR_BTN: "retournez à la plage !"
