@@ -65,26 +65,20 @@
 
         {% block showcase %}{% endblock %}
 
+{# intégration du contenu ~/base.html.twig #}
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
         </section>
         {% endblock %}
 
+{# intégration du footer ~/partials/footer.html.twig #}       
         {% block footer %}
-        <footer id="footer">
-            <div class="totop">
-                <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
-            </div>
-<!-- intégration de la vue de footer ~partials/footer.html.twig -->
-			{% include 'partials/footer.html.twig' %}
-<!-- voir pour intégrer les traductions {{ 'FOOTER_INFO'|t }}
-            <p>Saba Theme for <a href="http://getgrav.org" target="_blank">Grav</a><br/>
-			Brought to you with <i class="fa fa-heart"></i> by <a href="https://github.com/GravIsland/grav-theme-saba" target="_blank">MAT<em>sxm</em></a>. {{ 'TEST_LG'|t }}</p> -->
-        </footer>
+            {% include 'partials/footer.html.twig' %}
         {% endblock %}
     </div>
 
+{# block bottom #}
     {% block bottom %}
         {{ assets.js('bottom') }}
         <script>
