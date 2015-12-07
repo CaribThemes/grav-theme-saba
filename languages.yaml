@@ -1,8 +1,11 @@
 en:
 # Footer
+
 # Error
     ERROR_TYPE: "Error"
     ERROR_DESC: "Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach..."
+    ERROR_DESC: "<a href="#">back to the beach</a>"
+    
 # Miscellaneous
     TITLE: Saba
     DESCRIPTION: A light and classy Theme for Grav based on Skinny-Bones Theme.
@@ -10,7 +13,12 @@ en:
     
 fr:
 # Footer
-# Error
+
+# Erreur
+    ERROR_TYPE: "Erreur"
+    ERROR_DESC: "Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d'enlever vos chaussures et de retourner à la plage..."
+    ERROR_DESC: "<a href="#">retournez à la plage</a>"
+
 # Miscellaneous
     TITLE: Saba
     DESCRIPTION: Thème minimaliste pour Grav basé sur le thème Skinny-Bones
