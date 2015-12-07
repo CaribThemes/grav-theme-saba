@@ -1,17 +1,17 @@
 en:
-  ADMIN:
-    DEFAULT_LANG: Default lang
-  SITE:
+# Footer
+# Error
+    ERROR_TYPE: "Error"
+    ERROR_DESC: "Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach..."
+# Miscellaneous
     TITLE: Saba
     DESCRIPTION: A light and classy Theme for Grav based on Skinny-Bones Theme.
-    COPYRIGHT: © Copyright %s Your name
     TEST_LG: Translation Test
     
 fr:
-  ADMIN:
-    DEFAULT_LANG: Langue par défaut
-  SITE:
+# Footer
+# Error
+# Miscellaneous
     TITLE: Saba
     DESCRIPTION: Thème minimaliste pour Grav basé sur le thème Skinny-Bones
-    COPYRIGHT: © Copyright %s Votre nom
     TEST_LG: Test de traduction
