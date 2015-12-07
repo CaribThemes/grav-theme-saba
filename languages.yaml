@@ -4,7 +4,7 @@ en:
 # Error
     ERROR_TYPE: "Error"
     ERROR_DESC: "Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach..."
-    ERROR_DESC: "<a href="#">back to the beach</a>"
+    ERROR_BTN: "back to the beach!"
     
 # Miscellaneous
     TITLE: Saba
@@ -17,7 +17,7 @@ fr:
 # Erreur
     ERROR_TYPE: "Erreur"
     ERROR_DESC: "Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d'enlever vos chaussures et de retourner à la plage..."
-    ERROR_DESC: "<a href="#">retournez à la plage</a>"
+    ERROR_BTN: "retournez à la plage !"
 
 # Miscellaneous
     TITLE: Saba
