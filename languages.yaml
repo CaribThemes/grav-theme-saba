@@ -1,25 +1,28 @@
 en:
-# Footer
-# contact form
+# Contact form
+
+# Footer ~/user/themes/saba/templates/partials/footer.html.twig
+    FOOTER_COPYRIGHT: '©2015 Saba is brought to you by <a href="https://github.com/IslandThemes" target="_blank">IslandThemes</a> and powered by <a href="http://getgrav.org" target="_blank">Grav</a>.'
+    
 # Error ~/user/themes/saba/templates/error.html.twig
-    ERROR_TYPE: "Error"
-    ERROR_DESC: "Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach..."
-    ERROR_BTN: "back to the beach!"
+    ERROR_TYPE: 'Error'
+    ERROR_DESC: 'Oops! - It seems you are lost.<br/>It''s time to take of your shoes and going back to the beach...'
+    ERROR_BTN: 'back to the beach!'
     
 # Miscellaneous
-    TITLE: Saba
-    DESCRIPTION: A light and classy Theme for Grav based on Skinny-Bones Theme.
-    TEST_LG: Translation Test
+    TITLE: 'Saba'
+    DESCRIPTION: 'A light and classy Theme for Grav based on Skinny-Bones Theme.'
     
 fr:
-# Footer
-# contact form
+# Contact form
+
+# Footer ~/user/themes/saba/templates/partials/footer.html.twig
+    FOOTER_COPYRIGHT: '©2015 Saba vous est proposé par IslandThemes et est propulsé par Grav.'
 # Error ~/user/themes/saba/templates/error.html.twig
-    ERROR_TYPE: "Erreur"
-    ERROR_DESC: "Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d'enlever vos chaussures et de retourner à la plage..."
-    ERROR_BTN: "retournez à la plage !"
+    ERROR_TYPE: 'Erreur'
+    ERROR_DESC: 'Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d''enlever vos chaussures et de retourner à la plage...'
+    ERROR_BTN: 'retournez à la plage !'
 
 # Miscellaneous
-    TITLE: Saba
-    DESCRIPTION: Thème minimaliste pour Grav basé sur le thème Skinny-Bones
-    TEST_LG: Test de traduction
+    TITLE: 'Saba'
+    DESCRIPTION: 'Thème minimaliste pour Grav basé sur le thème Skinny-Bones.'
