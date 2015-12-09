@@ -11,16 +11,19 @@
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
+{# chargement des styles #}
     {% block stylesheets %}
-	            {# chemin vers Fontawesome 4.5.0 #}
-            {% do assets.add('theme://css/font-awesome.min.css',101) %}
-			    {# chemin vers les Custom CSS Saba #}
+{# chemin vers les Custom CSS Saba #}
             {% do assets.add('theme://css/saba-custom.css',100) %}
+{# chemin vers Fontawesome 4.5.0 #}
+            {% do assets.add('theme://css/font-awesome.min.css',101) %}
+{# chemin vers Saba footer.css Saba - à réintégrer dans un fichier commun #}
+            {% do assets.add('theme://css/footer.css',102) %}
 			
-        {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
-        {% do assets.addCss('theme://css-compiled/nucleus.css',102) %}
-        {% do assets.addCss('theme://css-compiled/template.css',101) %}
-        {% do assets.addCss('theme://css/slidebars.min.css') %}
+{# a vérifier   {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css',103) %} #}
+{# a vérifier   {% do assets.addCss('theme://css-compiled/nucleus.css',102) %} #}
+{# a vérifier   {% do assets.addCss('theme://css-compiled/template.css',101) %} #}
+{# a vérifier   {% do assets.addCss('theme://css/slidebars.min.css') %} #}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
@@ -32,6 +35,7 @@
     {% endblock %}
     {{ assets.css() }}
 
+{# chargement des js #}
     {% block javascripts %}
         {% do assets.addJs('jquery',101) %}
         {% do assets.addJs('theme://js/modernizr.custom.71422.js',100) %}
@@ -79,19 +83,7 @@
     </div>
 
 {# block bottom #}
-    {% block bottom %}
-        {{ assets.js('bottom') }}
-        <script>
-        $(function () {
-            $(document).ready(function() {
-              $.slidebars({
-                hideControlClasses: true,
-                scrollLock: true
-              });
-            });
-        });
-        </script>
-    {% endblock %}
+    {% block bottom %} {% endblock %}
 	
 </body>
 </html>
