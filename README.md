@@ -89,3 +89,9 @@ If you find bugs in the theme report [here](https://github.com/IslandThemes/grav
 Check the [toDo list](https://github.com/IslandThemes/island-toDo) for great things to come...
 
 > [IslandThemes](https://github.com/IslandThemes) proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
+
+## Credits
+* [Grav](http://getgrav.org) by [RocketTheme](http://www.rockettheme.com). Licensed under [MIT](https://github.com/IslandThemes/grav-theme-saba/master/LICENSE.md)
+* Inspired by [Skinny Bones Jekyll](https://github.com/mmistakes/skinny-bones-jekyll) by [Michael Rose](https://github.com/mmistakes). Licensed under [MIT](https://github.com/IslandThemes/grav-theme-saba/master/LICENSE.md)
+* [Bootstrap](http://getbootstrap.com). Licensed under [MIT](https://github.com/IslandThemes/grav-theme-saba/master/LICENSE.md)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) by Dave Gandy. Licensed under [MIT](https://github.com/IslandThemes/grav-theme-saba/master/LICENSE.md)
