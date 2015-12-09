@@ -1,0 +1,33 @@
+
+/*-----footer-----*/
+/* ligne du copyright */
+#footer{
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+    color: #999;
+}
+
+#footer a{
+    color:#444;
+}
+
+/* back to top */
+#footer .go-top a{
+    float:right;
+    display:block;
+    width:25px;
+    height:25px;
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+    background-color:#444;
+    transition:background-color 0.2s ease-in-out;
+    -moz-transition:background-color 0.2s ease-in-out;
+    -webkit-transition:background-color 0.2s ease-in-out;
+    -o-transition:background-color 0.2s ease-in-out
+}
+
+#footer .go-top a:hover{
+    background-color:#000;
+}
