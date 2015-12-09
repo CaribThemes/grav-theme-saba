@@ -3,7 +3,7 @@
     "type": "grav-theme",
     "description": "A light & classy Theme for Grav based on Skinny-Bones Theme.",
     "keywords": ["theme","grav","responsive","bootstrap"],
-    "homepage": "https://github.com/CaribbeanGrav/grav-theme-saba",
+    "homepage": "https://github.com/IslandThemes/grav-theme-saba",
     "license": "MIT",
     },
     "authors": [
