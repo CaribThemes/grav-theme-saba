@@ -7,7 +7,7 @@
 
 
 /* Sticky footer styles
--------------------------------------------------- */
+------------------------------------ */
 html {
   position: relative;
   min-height: 100%;
@@ -17,17 +17,6 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-
-/*
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here
-  height: 60px;
-  background-color: #f5f5f5;
-}
-*/
 
 /* Typography */
 
@@ -98,14 +87,3 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
     background-color: #dff0d8;
     border-color: #d6e9c6;
 }
-
-/* test footer
-
-#footer{  line-height: 30px;
-  padding: 25px 0 14px 0;
-  background-color: #293545;}#footer
-p{font-size:13px;float:left;line-height:30px}#footer .go-top{float:right;margin-left:20px;padding-left:20px;border-left:1px solid rgba(0,0,0,0.1)}#footer .go-top
-a{display:block;width:30px;height:30px;color:#fff;font-size:14px;text-align:center;border-radius:2px;background-color:#E74C3C;transition:background-color 0.2s ease-in-out;-moz-transition:background-color 0.2s ease-in-out;-webkit-transition:background-color 0.2s ease-in-out;-o-transition:background-color 0.2s ease-in-out}#footer .go-top a:hover{background-color:#444}#footer .go-top a
-i{line-height:30px}
-#footer a{color:#E74C3C}
-*/
