@@ -23,52 +23,38 @@
 #}
     {% endblock %}
     {{ assets.css() }}
-{# chargement des js #}
-    {% block javascripts %} {% endblock %}
-    {{ assets.js() }}
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 {% endblock head%}
 </head>
-    
 {# Début du body #}
-<body id="top" class="{{ page.header.body_classes }}">
-    <div id="sb-site">
+<body>
+    
+{# intégration de ~partials/header.html.twig #}
         {% block header %}
-        <header id="header">
-            <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
-            </div>
-            <div id="navbar">
-                {% block header_extra %}{% endblock %}
-{# intégration de ~partials/nav_langswitcher.html.twig #}
-			{% if config.plugins.langswitcher.enabled %}
-			{% include 'partials/nav_langswitcher.html.twig' %}
-			{% endif %}
-                {% block header_navigation %}
-                {% include 'partials/navigation.html.twig' %}
-                {% endblock %}
-                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
-            </div>
-        </header>
+            {% include 'partials/header.html.twig' %}
         {% endblock %}
 
-        {% block showcase %}{% endblock %}
+{# intégration du showcase #}
+    {% block showcase %}{% endblock %}
 
 {# intégration du contenu ~/base.html.twig #}
         {% block body %}
-        <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
-        </section>
         {% endblock %}
 
 {# intégration du footer ~/partials/footer.html.twig #}       
         {% block footer %}
             {% include 'partials/footer.html.twig' %}
         {% endblock %}
-    </div>
 
 {# block bottom #}
     {% block bottom %} {% endblock %}
+    
+{# chargement des js #}
+        {% block javascripts %}
+            {% do assets.addJs('theme://js/bootstrap.min.js') %}
+        {% endblock %}
+        {{ assets.js() }}
 	
 </body>
 </html>
