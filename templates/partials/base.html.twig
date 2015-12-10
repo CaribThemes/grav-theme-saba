@@ -1,11 +1,10 @@
-{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
 <head>
-
 {% block head %}
     <meta charset="utf-8" />
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+{# chargement de ~/partials/metadata.html.twig #}
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
@@ -13,24 +12,26 @@
 
 {# chargement des styles #}
     {% block stylesheets %}
-{# chemin vers les Custom CSS Saba #}
-            {% do assets.add('theme://css/saba-custom.css',100) %}
-{# chemin vers Fontawesome 4.5.0 #}
-            {% do assets.add('theme://css/font-awesome.min.css',101) %}
+{# chargement des CSS Bootstrap 3.3.6 #}
+    {% do assets.addCss('theme://css/bootstrap.min.css') %}
+{# chargement des Custom CSS Saba #}
+    {% do assets.add('theme://css/saba-custom.css',100) %}
+{# chargement des Fontawesome 4.5.0 #}
+    {% do assets.add('theme://css/font-awesome.min.css',101) %}
 
-			
-{# a vérifier   {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css',103) %} #}
-{# a vérifier   {% do assets.addCss('theme://css-compiled/nucleus.css',102) %} #}
-{# a vérifier   {% do assets.addCss('theme://css-compiled/template.css',101) %} #}
-{# a vérifier   {% do assets.addCss('theme://css/slidebars.min.css') %} #}
+{# a vérifier--   {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css',103) %} #}
+{# a vérifier--   {% do assets.addCss('theme://css-compiled/nucleus.css',102) %} #}
+{# a vérifier--   {% do assets.addCss('theme://css-compiled/template.css',101) %} #}
+{# a vérifier--   {% do assets.addCss('theme://css/slidebars.min.css') %} #}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
         {% endif %}
         {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
-            {% do assets.addCss('theme://css/nucleus-ie9.css') %}
+    {% do assets.addCss('theme://css/nucleus-ie9.css') %} 
             {% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
         {% endif %}
+                                                                                                 
     {% endblock %}
     {{ assets.css() }}
 
@@ -44,6 +45,7 @@
     {{ assets.js() }}
 
 {% endblock head%}
+
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">
