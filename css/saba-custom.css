@@ -62,7 +62,7 @@ a:hover, a:focus {
     width: 35px;
     height: 5px;
     border-radius: 1px;
-    background: #fff;
+    background: #000;
     cursor: pointer;
 }
 .nav-toggle span:before {
