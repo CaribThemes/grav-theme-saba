@@ -255,7 +255,7 @@ a:hover, a:focus {
     color: #999;
 }
 #footer a{
-    color:#444;
+    color: #444;
     font-weight: bold;
 }
 #footer a:hover{
@@ -269,33 +269,31 @@ a:hover, a:focus {
 
 /* back to top */
 #footer .go-top a{
-    float:right;
-    width:25px;
-    height:25px;
-    color:#000;
-    font-size:16px;
+    float: right;
+    width: 25px;
+    height: 25px;
+    color: #000;
+    font-size: 16px;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     line-height: 25px;
-    background-color:#999;
+    background-color: #999;
     transition:background-color 0.2s ease-in-out;
     -moz-transition:background-color 0.2s ease-in-out;
     -webkit-transition:background-color 0.2s ease-in-out;
     -o-transition:background-color 0.2s ease-in-out
 }
 #footer .go-top a:hover{
-    background-color:#000;
-    color:#999;
+    background-color: #000;
+    color: #999;
 }
-#footer .copyright{}
 
 
+
     
     
-    
-    
-    
-/* CSS d'antimatter */
+/* CSS d'antimatter
+----------------------------------------*/
 /* Constrain the width */
 .container {
   width: auto;
