@@ -1,16 +1,10 @@
-{# intégration du footer dans toutes les pages ~/.html.twig #}
+{# intégration du footer dans ~/partials/base.html.twig #}
 
-<div class="site-footer" id="colophon" role="contentinfo">
-  <footer class="footer" id="footer">
-    <div class="container1 clearfix">
-      <div class="go-top">
+<footer class="footer" id="footer">
+    <div class="go-top">
         <a href="#"><i class="fa fa-angle-up"></i></a>
-      </div>
-      <p></p>
-      <div id="mycontent">
-          {{ "FOOTER_COPYRIGHT"|t }}
-      </div>
-      <p></p>
     </div>
-  </footer>
-</div>
+    <div id="mycontent">
+        {{ "FOOTER_COPYRIGHT"|t }}
+    </div>
+</footer>
