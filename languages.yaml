@@ -17,7 +17,7 @@ fr:
 # Contact form
 
 # Footer ~/user/themes/saba/templates/partials/footer.html.twig
-    FOOTER_COPYRIGHT: '©2015 Saba vous est proposé par IslandThemes et est propulsé par Grav.'
+    FOOTER_COPYRIGHT: '©2015 Saba vous est proposé par <a href="https://github.com/IslandThemes" target="_blank">IslandThemes</a> et est propulsé par <a href="http://getgrav.org" target="_blank">Grav.</a>'
 # Error ~/user/themes/saba/templates/error.html.twig
     ERROR_TYPE: 'Erreur'
     ERROR_DESC: 'Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d''enlever vos chaussures et de retourner à la plage...'
