@@ -747,11 +747,11 @@
 /* Basic */
 
 body {
-  background: #1d1e21;
-  color: #777777;
-  font-family: "Source Sans Pro",sans-serif;
-  font-weight: 300;
-}
+	background: #1d1e21;
+	color: #777777;
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: 300;
+	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-transition: none !important;
@@ -770,9 +770,9 @@ body {
 		color: #777777;
 	}
 
-	strong, b, h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		color: #363636;
+strong, b, h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: #5c5edc;
 	}
 
 	blockquote {
@@ -944,7 +944,6 @@ body {
 			}
 
 /* Button */
-
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
