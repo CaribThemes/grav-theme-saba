@@ -7,17 +7,11 @@ author:
   email: mat@idimweb.com
 homepage: https://github.com/IslandThemes/grav-theme-saba
 demo:
-keywords: theme, responsive, html5, css3, design, bootstrap,
+keywords: theme, responsive, html5, css3, design
 bugs: https://github.com/IslandThemes/grav-theme-saba/issues
 license: MIT
 
 form:
-  validation: loose
+  validation: strict
   fields:
-    default_lang:
-      type: text
-      size: x-small
-      label: Default lang
-      default: 'en'
-      validate:
-        type: text
+   
