@@ -1,9 +1,6 @@
 # Saba Theme for the CMS Grav
 
-[![GitHub version](https://badge.fury.io/gh/CaribThemes%2Fgrav-theme-saba.svg)](https://badge.fury.io/gh/CaribThemes%2Fgrav-theme-saba)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Join the chat at https://gitter.im/IslandThemes/grav-theme-saba](https://badges.gitter.im/IslandThemes/grav-theme-saba.svg)](https://gitter.im/IslandThemes/grav-theme-saba?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+![Badge](https://img.shields.io/badge/Status-dev_in_progress-red.svg?style=flat-square)
 
 ![Saba](assets/readme_1.png)
 
