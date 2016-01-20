@@ -2,33 +2,40 @@
 
 ![Badge](https://img.shields.io/badge/Status-dev_in_progress-red.svg?style=flat-square)
 
-![Saba](assets/readme_1.png)
+[![Demo](https://img.shields.io/badge/Demo-Saba-blue.svg?style=flat-square)](http://caribthemes.io/demo/saba)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/CaribThemes/grav-theme-saba/blob/master/LICENSE.md)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/CaribThemes/grav-theme-saba)
 
-> **Saba** by [**IslandThemes**](https://github.com/IslandThemes) is a simple theme for [**Grav**](http://getgrav.org). 
+> **Saba** is a **FREE** minimal PhtogGallery Theme ported by [**CaribThemes**](http://caribthemes.io) for the [**Grav**](http://getgrav.org) CMS and based on Astral by HTML5up.
+
+![Saba](assets/readme_1.png)
 
 ##### Table of Contents:
 
+* [Demo](#demo)
 * [Features](#features)
-* [Views](#twig-views)
 * [Installation](#installation)
 * [Updating](#updating)
 * [Setup](#setup)
+* [Demo Content](#demo-content)
+* [Support & Bugs](#support--bugs)
 * [Credits](#credits)
 
-## Features
-* HTML5 and CSS3
-* Fully Responsive
-* Fontawesome icon support 4.5.0 [See the list here.](http://fortawesome.github.io/Font-Awesome/icons)
+## Demo
 
-## Supported Page Templates
-* Home view template
-* Error view template
-* Langswitcher partial view within navigation* - TODO
+See the **Saba** Template live [here](http://demo.caribthemes.io/saba) - TO COME
+
+## Features
+* Fully Responsive
+* HTML5 and CSS3
+* Photo Gallery
+* Fontawesome icon support 4.5.0 (CDN) [See the list here.](http://fortawesome.github.io/Font-Awesome/icons)
+* Contact Form
 
 ## Installation
 Installing the **Saba** Theme can be done in one of two ways. Via GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
 
-#### GPM Installation (Preferred)
+#### GPM Installation
 
 The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line). From the root of your Grav install type:
 
@@ -36,14 +43,16 @@ The simplest way to install this theme is via the [Grav Package Manager (GPM)](h
 
 This will install the Saba Theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/saba`
 
+>> **NOTE:** for the Skeleton version, please see: [Skeleton](https://github.com/CaribThemes/grav-skeleton-saba) 
+
 #### Manual Installation
 
-To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `saba`. You can find these files on [GitHub](https://github.com/IslandThemes/grav-theme-saba).
+To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `saba`. You can find these files on [GitHub](https://github.com/CaribThemes/grav-theme-saba).
 
 You should now have all the theme files under
 
     /your/site/grav/user/themes/saba
-	
+
 >> NOTE: This theme is a modular component for Grav which requires the [Grav](http://github.com/getgrav/grav), [Error](https://github.com/getgrav/grav-theme-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) plugins.
 
 ## Updating
@@ -62,7 +71,7 @@ This command will check your Grav install to see if your Saba Theme is due for a
 Manually updating Agency is pretty simple. Here is what you will need to do to get this done:
 
 * Delete the `your/site/user/themes/saba` directory.
-* Download the new version of the Bootstrap Theme on [GitHub](https://github.com/IslandThemes/grav-theme-saba).
+* Download the new version of the Bootstrap Theme on [GitHub](https://github.com/CaribThemes/grav-theme-saba).
 * Unzip the zip file in `your/site/user/themes` and rename the resulting folder to `saba`.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
@@ -79,14 +88,23 @@ If you want to set Saba as the default theme, you can do so by following these s
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **saba** folder.
 
-#### Contact Form Configuration
-For contact form configuration instructions please refer to [official documentation](http://learn.getgrav.org/advanced/contact-form). Make sure you installed Email and Form plugin though.
+<!--#### Contact Form Configuration
+For contact form configuration instructions please refer to [official documentation](http://learn.getgrav.org/advanced/contact-form). Make sure you installed Email and Form plugin though.-->
+## Demo Content
+You can find inside theme directory the folder `_demo` where you can find the example contents for your site. If the theme is one-page layout copy all files inside `_demo/pages` into your home page folder. For the other folders follow the same name.
 
-If you find bugs in the theme report [here](https://github.com/IslandThemes/grav-theme-saba/issues)
+## Support & Bugs
+* If you need a support please go to the dedicated [![Join the chat at https://gitter.im/CaribThemes/grav-theme-saba](https://badges.gitter.im/CaribThemes/grav-theme-saba.svg)](https://gitter.im/CaribThemes/grav-theme-saba?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+* If you find bugs, please report them on [here](https://github.com/CaribThemes/grav-theme-saba/issues)
 
 ## Credits
-* [Grav](http://getgrav.org) by [RocketTheme](http://www.rockettheme.com). Licensed under [MIT](https://github.com/IslandThemes/grav-theme-saba/master/LICENSE.md)
-* Photos by Marc Antoine Thevenet ©[IDIM<em>web</em>.com](http://idimweb.com)
-* Inspired by 
+* [Grav](http://getgrav.org) by [RocketTheme](http://www.rockettheme.com). Licensed under [MIT](https://github.com/CaribThemes/grav-theme-saba/master/LICENSE.md)
+* Photos by MATsxm for [IDIM<em>web</em>.com](http://idimweb.com). Licensed under __WTFPL__ (see LICENSE)
+* Inspired by the template Fractal by [HTML5 up](http://html5up.net/)
+* [Back To Top](https://github.com/CodyHouse/back-to-top) feature by [CodyHouse](https://github.com/CodyHouse)
 
->> [IslandThemes](https://github.com/IslandThemes) is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
+>> __DISCLAIMER__
+
+>>Note that @Sandra97 has never been involved in the CSS excepted for having killed few _!important;_ :stuck_out_tongue:
+
+[CaribThemes](https://caribthemes.io) free web ressources is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
