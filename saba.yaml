@@ -1,5 +1,5 @@
 enabled: true
-
+default_lang: en
 streams:
   schemes:
     theme:
