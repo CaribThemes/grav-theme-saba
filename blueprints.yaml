@@ -1,17 +1,13 @@
 name: Saba
 version: 1.0.0
-description: "A FREE Grav Theme ported by IslandThemes and based on Astral by HTML5up."
+description: "A FREE Photo Grav Theme ported by CaribThemes."
 icon: paw
 author:
-  name: MATsxm for IslandThemes
+  name: MATsxm for CaribThemes
   email: mat@idimweb.com
-homepage: https://github.com/IslandThemes/grav-theme-saba
-demo:
-keywords: theme, responsive, html5, css3, design
-bugs: https://github.com/IslandThemes/grav-theme-saba/issues
+  url: http://caribthemes.io
+homepage: https://github.com/CaribThemes/grav-theme-saba
+demo: http://saba.caribthemes.io
+keywords: theme, responsive, html5, css3, design, photo
+bugs: https://github.com/CaribThemes/grav-theme-saba/issues
 license: MIT
-
-form:
-  validation: strict
-  fields:
-   
