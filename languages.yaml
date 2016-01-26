@@ -1,25 +1,15 @@
 en:
-# button
-    BTN_DOWNLOAD: '<a href="https://github.com/IslandThemes/grav-theme-saba" target="_blank" title="Download Saba on GitHub" class="button special icon fa-download">Download</a>'
-# Footer ~/user/themes/saba/templates/partials/footer.html.twig
-    FOOTER_COPYRIGHT: '&copy; 2016 ported with <i class="fa fa-heart"></i> for <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav</a> by <a href="https://github.com/IslandThemes" target="_blank" title="Themes for Grav CMS">Island Themes</a> and based on Astral by <a href="http://html5up.net" target="_blank" title="HTML5">HTML5 UP</a>.'
-# Error ~/user/themes/saba/templates/error.html.twig
-    ERROR_TYPE: 'Error'
-    ERROR_DESC: 'Oops! - It seems you are lost.<br/>It''s time to take of your shoes and going back to the beach...'
-    ERROR_BTN: 'back to the beach!'
-# Miscellaneous
-    TITLE: 'Saba'
-    DESCRIPTION: 'A Theme for The Flat CMS Grav.'
+# Footer
+    FOOTER_COPYRIGHT: Saba is inspired by <a href="http://html5up.net" target="_blank" title="HTML5">Astral</a> and ported with <i class="fa fa-heart"></i> for <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav CMS</a> by <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
+# Error
+    ERROR_TYPE: Error
+    ERROR_DESC: Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach...
+    ERROR_BTN: back to the beach!
 
 fr:
-# bouton
-    BTN_DOWNLOAD: '<a href="https://github.com/IslandThemes/grav-theme-saba" target="_blank" title="Télécharger Saba depuis GitHub" class="button special icon fa-download">Télécharger</a>'
-# Footer ~/user/themes/saba/templates/partials/footer.html.twig
-    FOOTER_COPYRIGHT: '&copy; 2016 Prickly Pear est un template  <a href="https://github.com/IslandThemes" target="_blank" title="Templates pour Grav">Island Theme</a> adapté pour <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav</a> d''une création de <a href="http://html5up.net" target="_blank" title="HTML5">HTML5 UP</a>.'
-# Error ~/user/themes/saba/templates/error.html.twig
-    ERROR_TYPE: 'Erreur'
-    ERROR_DESC: 'Oups ! - Il semble bien que vous vous soyez perdu.<br/>Il est temps d''enlever vos chaussures et de retourner à la plage...'
-    ERROR_BTN: 'retournez à la plage !'
-# Miscellaneous
-    TITLE: 'Saba'
-    DESCRIPTION: 'Un thème pour le Flat CMS Grav.'
+# Footer
+    FOOTER_COPYRIGHT: Saba est inspiré par <a href="http://html5up.net" target="_blank" title="HTML5">Astral</a> et vous est proposé avec <i class="fa fa-heart"></i> sur <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav</a> par <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
+# Error
+    ERROR_TYPE: Erreur
+    ERROR_DESC: Oups ! - Il semble que vous soyez perdu.<br/>Il est temps de quitter vos chaussures et de retourner à la plage...
+    ERROR_BTN: Retour à la plage !
