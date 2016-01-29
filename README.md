@@ -31,6 +31,8 @@ See the **Saba** Template live [here](http://demo.caribthemes.io/saba) - TO COME
 * Photo Gallery
 * Fontawesome icon support 4.5.0 (CDN) [See the list here.](http://fortawesome.github.io/Font-Awesome/icons)
 * Contact Form
+* Multilingual ready - (demo in :uk: & :fr:)
+* Custom Error page
 
 ## Installation
 Installing the **Saba** Theme can be done in one of two ways. Via GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
