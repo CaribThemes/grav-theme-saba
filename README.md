@@ -102,11 +102,12 @@ You can find inside theme directory the folder `_demo` where you can find the ex
 ## Credits
 * [Grav](http://getgrav.org) by [RocketTheme](http://www.rockettheme.com). Licensed under [MIT](https://github.com/CaribThemes/grav-theme-saba/master/LICENSE.md)
 * Photos by MATsxm for [IDIM<em>web</em>.com](http://idimweb.com). Licensed under __WTFPL__ (see LICENSE)
-* Inspired by the template Fractal by [HTML5 up](http://html5up.net/)
+* Inspired by the template Astral by [HTML5 up](http://html5up.net/)
+* [LightBox2](https://github.com/lokesh/lightbox2) by Lokesh
 * [Back To Top](https://github.com/CodyHouse/back-to-top) feature by [CodyHouse](https://github.com/CodyHouse)
 
 >> __DISCLAIMER__
 
 >>Note that @Sandra97 has never been involved in the CSS excepted for having killed few _!important;_ :stuck_out_tongue:
 
-[CaribThemes](https://caribthemes.io) free web ressources is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
+[CaribThemes](https://caribthemes.io), free web resources is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
