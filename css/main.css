@@ -1345,6 +1345,10 @@
 						display: block;
 						height: 100%;
 					}
+        
+                    #me .pic img.mobile {
+					display: none;
+				}
 
 					#me .pic .arrow {
 						display: block;
@@ -1434,6 +1438,15 @@
                 color: #5c5edc;
                 text-decoration: none;
             }
+					
+					
+		/*Error page*/
+
+			.rightabs{
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
 	}
 
 /* Mobile */
@@ -1555,6 +1568,9 @@
 					display: block;
 					width: 100%;
 				}
+                #me .pic img.desktop {
+					display: none;
+				}
 
 				#me .pic .arrow {
 					display: none;
@@ -1572,6 +1588,7 @@
 				#me header > p {
 					font-size: 1.25em;
 				}
+				
 
 		/* Footer */
 
@@ -1588,5 +1605,11 @@
 					#footer .copyright li:before {
 						display: none;
 					}
+        /* Error*/ 
+            
+        .rightabs {
+                display:none;
+        }
+        
 
 	}
