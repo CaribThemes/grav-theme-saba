@@ -1,0 +1,25 @@
+<form name="simple_form" id="simple_form" action="https://getsimpleform.com/messages?form_api_token={{ token | e('html_attr') }}" enctype="multipart/form-data" method="post">
+
+    {# Redirect URL after submit #}
+    <input type="hidden" name="redirect_to" value="{{ redirect_to | e('html_attr') }}" />
+
+    {# START: input form here #}
+<div class="row">
+    <div class="6u 12u$(mobile)">
+        <input type="text" name="name" id="name" placeholder="{{ "CONTACT_FORM_NAME"|t }}" required class="form-control" />
+    </div>
+    <div class="6u$ 12u$(mobile)">
+        <input type="email" name="email" id="email" placeholder="{{ "CONTACT_FORM_EMAIL"|t }}" required class="form-control" />
+    </div>
+    <div class="12u$">
+        <input type="text" name="subject" id="subject" placeholder="{{ "CONTACT_FORM_SUBJECT"|t }}" required class="form-control" />
+    </div>
+    <div class="12u$">
+        <textarea name="message" rows="6" id="message" placeholder="{{ "CONTACT_FORM_MESSAGE"|t }}" required class="form-control"></textarea>
+    {# END: input form here #}
+    </div>
+</div>
+    <div class="12u$">
+        <button class="btn btn-primary btn-lg">{{ "CONTACT_FORM_BTN_SUBMIT"|t }}</button>
+    </div>
+</form>
