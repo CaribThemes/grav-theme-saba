@@ -4,7 +4,7 @@
 
 [![Demo](https://img.shields.io/badge/Demo-Saba-blue.svg?style=flat-square)](http://caribthemes.io/demo/saba)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/CaribThemes/grav-theme-saba/blob/master/LICENSE.md)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/CaribThemes/grav-theme-saba)
+[![Join the chat at https://gitter.im/CaribThemes/grav-theme-saba](https://badges.gitter.im/CaribThemes/grav-theme-saba.svg)](https://gitter.im/CaribThemes/grav-theme-saba?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > **Saba** is a **FREE** minimalist Photo Theme ported by [**CaribThemes**](http://caribthemes.io) for the [**Grav**](http://getgrav.org) CMS and inspired by Astral by HTML5up.
 
