@@ -1,15 +1,40 @@
 en:
+# Menu
+    MENU_HOME: Home
+    MENU_GALLERY: Photos
+    MENU_ERROR: Error
+    MENU_CONTACT: Contact Me
+# Contact form
+    CONTACT_TITLE: Contact
+    CONTACT_FORM_NAME: Name
+    CONTACT_FORM_EMAIL: name@example.com
+    CONTACT_FORM_SUBJECT: Subject
+    CONTACT_FORM_MESSAGE: Your message
+    CONTACT_FORM_BTN_SUBMIT: Submit
 # Footer
     FOOTER_COPYRIGHT: Saba is inspired by <a href="http://html5up.net" target="_blank" title="HTML5">Astral</a> and ported with <i class="fa fa-heart"></i> for <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav CMS</a> by <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
 # Error
     ERROR_TYPE: Error
     ERROR_DESC: Oops! - It seems you are lost.<br/>It's time to take of your shoes and going back to the beach...
-    ERROR_BTN: back to the beach!
+    ERROR_BTN: Back to the beach!
 
 fr:
+# Menu
+    MENU_HOME: Accueil
+    MENU_GALLERY: Photos
+    MENU_ERROR: Erreur
+    MENU_CONTACT: Contact
+# Contact form
+    CONTACT_TITLE: Contact
+    CONTACT_FORM_NAME: Nom
+    CONTACT_FORM_EMAIL: nom@exemple.com
+    CONTACT_FORM_SUBJECT: Objet du message
+    CONTACT_FORM_MESSAGE: Votre message
+    CONTACT_FORM_BTN_SUBMIT: Envoyer
 # Footer
-    FOOTER_COPYRIGHT: Saba est inspiré par <a href="http://html5up.net" target="_blank" title="HTML5">Astral</a> et vous est proposé avec <i class="fa fa-heart"></i> sur <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav</a> par <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
+    FOOTER_COPYRIGHT: Saba est inspiré par <a href="http://html5up.net" target="_blank" title="HTML5">Astral</a> et vous est proposé sur <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav</a> avec <i class="fa fa-heart"></i> par <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
 # Error
     ERROR_TYPE: Erreur
     ERROR_DESC: Oups ! - Il semble que vous soyez perdu.<br/>Il est temps de quitter vos chaussures et de retourner à la plage...
     ERROR_BTN: Retour à la plage !
+    
