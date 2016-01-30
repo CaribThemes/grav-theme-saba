@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/CaribThemes/grav-theme-saba/blob/master/LICENSE.md)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/CaribThemes/grav-theme-saba)
 
-> **Saba** is a **FREE** minimal PhtogGallery Theme ported by [**CaribThemes**](http://caribthemes.io) for the [**Grav**](http://getgrav.org) CMS and based on Astral by HTML5up.
+> **Saba** is a **FREE** minimalist Photo Theme ported by [**CaribThemes**](http://caribthemes.io) for the [**Grav**](http://getgrav.org) CMS and inspired by Astral by HTML5up.
 
 ![Saba](assets/readme_1.png)
 
@@ -23,12 +23,12 @@
 
 ## Demo
 
-See the **Saba** Template live [here](http://demo.caribthemes.io/saba) - TO COME
+See the **Saba** Template live [here](http://caribthemes.io/demo/saba)
 
 ## Features
 * Fully Responsive
 * HTML5 and CSS3
-* Photo Gallery
+* Photo Gallery with lightBox
 * Fontawesome icon support 4.5.0 (CDN) [See the list here.](http://fortawesome.github.io/Font-Awesome/icons)
 * Contact Form
 * Multilingual ready - (demo in :uk: & :fr:)
@@ -45,7 +45,7 @@ The simplest way to install this theme is via the [Grav Package Manager (GPM)](h
 
 This will install the Saba Theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/saba`
 
->> **NOTE:** for the Skeleton version, please see: [Skeleton](https://github.com/CaribThemes/grav-skeleton-saba) 
+>> **NOTE:** for the Skeleton version, please see: [Skeleton](https://github.com/CaribThemes/grav-skeleton-saba) - __TO COME__
 
 #### Manual Installation
 
@@ -90,8 +90,6 @@ If you want to set Saba as the default theme, you can do so by following these s
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **saba** folder.
 
-<!--#### Contact Form Configuration
-For contact form configuration instructions please refer to [official documentation](http://learn.getgrav.org/advanced/contact-form). Make sure you installed Email and Form plugin though.-->
 ## Demo Content
 You can find inside theme directory the folder `_demo` where you can find the example contents for your site. If the theme is one-page layout copy all files inside `_demo/pages` into your home page folder. For the other folders follow the same name.
 
