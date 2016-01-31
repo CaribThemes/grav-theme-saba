@@ -1,0 +1,18 @@
+<div id="footer">
+    <ul class="copyright">
+        <li>&copy; {{ "now"|date("Y") }} {{ "FOOTER_COPYRIGHT"|t }}</li>
+    </ul>
+    <ul class="langswitcher">
+        {% set langobj = grav['language'] %}
+        {% for key, language in langswitcher.languages %}
+    {% if key == langswitcher.current %}
+        {% set lang_url = page.url %}
+        {% set active_class = 'active' %}
+    {% else %}
+        {% set lang_url = base_url_simple ~ langobj.getLanguageURLPrefix(key)~langswitcher.page_route ?: '/' %}
+        {% set active_class = '' %}
+    {% endif %}
+        <li><a href="{{ lang_url }}" class="{{ active_class }}">{{  language.nativeName|capitalize }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
