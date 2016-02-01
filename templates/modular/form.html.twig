@@ -1,0 +1,11 @@
+<article id="contact" class="panel">
+    <header>
+        <h2>{{ "CONTACT_TITLE"|t }}</h2>
+            {{ content }}
+    </header>
+
+    {% if config.plugins.simple_form.enabled %}
+        {% set simple_form_config = page.header.simple_form ?: config.themes.saba.simple_form %}
+        {{ simple_form(simple_form_config) }}
+    {% endif %}
+</article>
