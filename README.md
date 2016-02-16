@@ -35,6 +35,19 @@ See the **Saba** Template live [here](http://caribthemes.io/demo/saba)
 * Custom Error page
 
 ## Installation
+
+### Basic Setup for a new Grav site
+
+The simplest way to install Saba Theme for Grav is to download and install the Saba Skeleton package:
+
+* Download [Saba Skeleton on Grav](http://getgrav.org/downloads/skeletons#extras) or the latest release on [GitHub](https://github.com/CaribThemes/grav-skeleton-saba/releases).
+* Simply unzip the package into your web root folder.
+* Point your browser at the folder, job done!
+
+> TIP: Check out the general [Grav installation instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
+
+### Existing Grav site
+
 Installing the **Saba** Theme can be done in one of two ways. Via GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
 
 #### GPM Installation
@@ -108,4 +121,4 @@ You can find inside theme directory the folder `_demo` where you can find the ex
 
 >>Note that @Sandra97 has never been involved in the CSS excepted for having killed few _!important;_ :stuck_out_tongue:
 
-[CaribThemes](https://caribthemes.io), free web resources is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
+[CaribThemes](http://caribthemes.io), free web resources is proudly brought to you by [IDIM<em>web</em>.com](http://idimweb.com)
