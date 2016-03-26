@@ -18,6 +18,7 @@
 * [Updating](#updating)
 * [Setup](#setup)
 * [Demo Content](#demo-content)
+* [Showcase](#showcase)
 * [Support & Bugs](#support--bugs)
 * [Credits](#credits)
 
@@ -105,6 +106,10 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 ## Demo Content
 You can find inside theme directory the folder `_demo` where you can find the example contents for your site. If the theme is one-page layout copy all files inside `_demo/pages` into your home page folder. For the other folders follow the same name.
+
+## Showcase
+You want to share your site build with Saba?
+Feel free to add your site here...
 
 ## Support & Bugs
 * If you need a support please go to the dedicated [![Join the chat at https://gitter.im/CaribThemes/grav-theme-saba](https://badges.gitter.im/CaribThemes/grav-theme-saba.svg)](https://gitter.im/CaribThemes/grav-theme-saba?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
