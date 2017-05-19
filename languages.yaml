@@ -37,4 +37,23 @@ fr:
     ERROR_TYPE: Erreur
     ERROR_DESC: Oups ! - Il semble que vous soyez perdu.<br/>Il est temps de quitter vos chaussures et de retourner à la plage...
     ERROR_BTN: Retour à la plage !
-    
+
+pl:
+# Menu
+    MENU_HOME: Strona główna
+    MENU_GALLERY: Zdjęcia
+    MENU_ERROR: Błąd
+    MENU_CONTACT: Kontakt
+# Contact form
+    CONTACT_TITLE: Kontakt
+    CONTACT_FORM_NAME: Nazwa
+    CONTACT_FORM_EMAIL: nazwa@example.com
+    CONTACT_FORM_SUBJECT: Temat
+    CONTACT_FORM_MESSAGE: Twoja wiadomość
+    CONTACT_FORM_BTN_SUBMIT: Wyślij
+# Footer
+    FOOTER_COPYRIGHT: Saba zainspirowana jest <a href="http://html5up.net" target="_blank" title="HTML5">Astralem</a> i przeportowana z <i class="fa fa-heart"></i> dla <a href="http://getgrav.org" target="_blank" title="GetGrav">Grav CMS</a> przez <a href="http://caribthemes.io" target="_blank" title="Themes for Grav CMS">Carib Themes</a>.
+# Error
+    ERROR_TYPE: Błąd
+    ERROR_DESC: Ups! - Wygląda na to, że zabłądziłeś.<br/>Pora ściągnąć buty i zawrócić w stronę plaży...
+    ERROR_BTN: Wróć na plażę!
